@@ -1,0 +1,449 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		944DFE1119E9217E00660BB4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 944DFE1019E9217E00660BB4 /* main.m */; };
+		944DFE1419E9217E00660BB4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 944DFE1319E9217E00660BB4 /* AppDelegate.m */; };
+		944DFE1719E9217E00660BB4 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 944DFE1619E9217E00660BB4 /* ViewController.m */; };
+		944DFE1A19E9217E00660BB4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 944DFE1819E9217E00660BB4 /* Main.storyboard */; };
+		944DFE1C19E9217E00660BB4 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 944DFE1B19E9217E00660BB4 /* Images.xcassets */; };
+		944DFE1F19E9217E00660BB4 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 944DFE1D19E9217E00660BB4 /* LaunchScreen.xib */; };
+		944DFE2B19E9217E00660BB4 /* ToDoOrNotTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 944DFE2A19E9217E00660BB4 /* ToDoOrNotTests.m */; };
+		944DFE3A19E9220700660BB4 /* RDVCalendarDayCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 944DFE3519E9220700660BB4 /* RDVCalendarDayCell.m */; };
+		944DFE3B19E9220700660BB4 /* RDVCalendarView.m in Sources */ = {isa = PBXBuildFile; fileRef = 944DFE3719E9220700660BB4 /* RDVCalendarView.m */; };
+		944DFE3C19E9220700660BB4 /* RDVCalendarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 944DFE3919E9220700660BB4 /* RDVCalendarViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		944DFE2519E9217E00660BB4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 944DFE0319E9217E00660BB4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 944DFE0A19E9217E00660BB4;
+			remoteInfo = ToDoOrNot;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		944DFE0B19E9217E00660BB4 /* ToDoOrNot.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ToDoOrNot.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		944DFE0F19E9217E00660BB4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		944DFE1019E9217E00660BB4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		944DFE1219E9217E00660BB4 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		944DFE1319E9217E00660BB4 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		944DFE1519E9217E00660BB4 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		944DFE1619E9217E00660BB4 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		944DFE1919E9217E00660BB4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		944DFE1B19E9217E00660BB4 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		944DFE1E19E9217E00660BB4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		944DFE2419E9217E00660BB4 /* ToDoOrNotTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ToDoOrNotTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		944DFE2919E9217E00660BB4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		944DFE2A19E9217E00660BB4 /* ToDoOrNotTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ToDoOrNotTests.m; sourceTree = "<group>"; };
+		944DFE3419E9220700660BB4 /* RDVCalendarDayCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RDVCalendarDayCell.h; sourceTree = "<group>"; };
+		944DFE3519E9220700660BB4 /* RDVCalendarDayCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RDVCalendarDayCell.m; sourceTree = "<group>"; };
+		944DFE3619E9220700660BB4 /* RDVCalendarView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RDVCalendarView.h; sourceTree = "<group>"; };
+		944DFE3719E9220700660BB4 /* RDVCalendarView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RDVCalendarView.m; sourceTree = "<group>"; };
+		944DFE3819E9220700660BB4 /* RDVCalendarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RDVCalendarViewController.h; sourceTree = "<group>"; };
+		944DFE3919E9220700660BB4 /* RDVCalendarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RDVCalendarViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		944DFE0819E9217E00660BB4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		944DFE2119E9217E00660BB4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		944DFE0219E9217E00660BB4 = {
+			isa = PBXGroup;
+			children = (
+				944DFE0D19E9217E00660BB4 /* ToDoOrNot */,
+				944DFE2719E9217E00660BB4 /* ToDoOrNotTests */,
+				944DFE0C19E9217E00660BB4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		944DFE0C19E9217E00660BB4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				944DFE0B19E9217E00660BB4 /* ToDoOrNot.app */,
+				944DFE2419E9217E00660BB4 /* ToDoOrNotTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		944DFE0D19E9217E00660BB4 /* ToDoOrNot */ = {
+			isa = PBXGroup;
+			children = (
+				944DFE1219E9217E00660BB4 /* AppDelegate.h */,
+				944DFE1319E9217E00660BB4 /* AppDelegate.m */,
+				944DFE1519E9217E00660BB4 /* ViewController.h */,
+				944DFE1619E9217E00660BB4 /* ViewController.m */,
+				944DFE3419E9220700660BB4 /* RDVCalendarDayCell.h */,
+				944DFE3519E9220700660BB4 /* RDVCalendarDayCell.m */,
+				944DFE3619E9220700660BB4 /* RDVCalendarView.h */,
+				944DFE3719E9220700660BB4 /* RDVCalendarView.m */,
+				944DFE3819E9220700660BB4 /* RDVCalendarViewController.h */,
+				944DFE3919E9220700660BB4 /* RDVCalendarViewController.m */,
+				944DFE1819E9217E00660BB4 /* Main.storyboard */,
+				944DFE1B19E9217E00660BB4 /* Images.xcassets */,
+				944DFE1D19E9217E00660BB4 /* LaunchScreen.xib */,
+				944DFE0E19E9217E00660BB4 /* Supporting Files */,
+			);
+			path = ToDoOrNot;
+			sourceTree = "<group>";
+		};
+		944DFE0E19E9217E00660BB4 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				944DFE0F19E9217E00660BB4 /* Info.plist */,
+				944DFE1019E9217E00660BB4 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		944DFE2719E9217E00660BB4 /* ToDoOrNotTests */ = {
+			isa = PBXGroup;
+			children = (
+				944DFE2A19E9217E00660BB4 /* ToDoOrNotTests.m */,
+				944DFE2819E9217E00660BB4 /* Supporting Files */,
+			);
+			path = ToDoOrNotTests;
+			sourceTree = "<group>";
+		};
+		944DFE2819E9217E00660BB4 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				944DFE2919E9217E00660BB4 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		944DFE0A19E9217E00660BB4 /* ToDoOrNot */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 944DFE2E19E9217E00660BB4 /* Build configuration list for PBXNativeTarget "ToDoOrNot" */;
+			buildPhases = (
+				944DFE0719E9217E00660BB4 /* Sources */,
+				944DFE0819E9217E00660BB4 /* Frameworks */,
+				944DFE0919E9217E00660BB4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ToDoOrNot;
+			productName = ToDoOrNot;
+			productReference = 944DFE0B19E9217E00660BB4 /* ToDoOrNot.app */;
+			productType = "com.apple.product-type.application";
+		};
+		944DFE2319E9217E00660BB4 /* ToDoOrNotTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 944DFE3119E9217E00660BB4 /* Build configuration list for PBXNativeTarget "ToDoOrNotTests" */;
+			buildPhases = (
+				944DFE2019E9217E00660BB4 /* Sources */,
+				944DFE2119E9217E00660BB4 /* Frameworks */,
+				944DFE2219E9217E00660BB4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				944DFE2619E9217E00660BB4 /* PBXTargetDependency */,
+			);
+			name = ToDoOrNotTests;
+			productName = ToDoOrNotTests;
+			productReference = 944DFE2419E9217E00660BB4 /* ToDoOrNotTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		944DFE0319E9217E00660BB4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+				ORGANIZATIONNAME = Dora;
+				TargetAttributes = {
+					944DFE0A19E9217E00660BB4 = {
+						CreatedOnToolsVersion = 6.0.1;
+					};
+					944DFE2319E9217E00660BB4 = {
+						CreatedOnToolsVersion = 6.0.1;
+						TestTargetID = 944DFE0A19E9217E00660BB4;
+					};
+				};
+			};
+			buildConfigurationList = 944DFE0619E9217E00660BB4 /* Build configuration list for PBXProject "ToDoOrNot" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 944DFE0219E9217E00660BB4;
+			productRefGroup = 944DFE0C19E9217E00660BB4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				944DFE0A19E9217E00660BB4 /* ToDoOrNot */,
+				944DFE2319E9217E00660BB4 /* ToDoOrNotTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		944DFE0919E9217E00660BB4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				944DFE1A19E9217E00660BB4 /* Main.storyboard in Resources */,
+				944DFE1F19E9217E00660BB4 /* LaunchScreen.xib in Resources */,
+				944DFE1C19E9217E00660BB4 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		944DFE2219E9217E00660BB4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		944DFE0719E9217E00660BB4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				944DFE3B19E9220700660BB4 /* RDVCalendarView.m in Sources */,
+				944DFE3C19E9220700660BB4 /* RDVCalendarViewController.m in Sources */,
+				944DFE1719E9217E00660BB4 /* ViewController.m in Sources */,
+				944DFE1419E9217E00660BB4 /* AppDelegate.m in Sources */,
+				944DFE1119E9217E00660BB4 /* main.m in Sources */,
+				944DFE3A19E9220700660BB4 /* RDVCalendarDayCell.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		944DFE2019E9217E00660BB4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				944DFE2B19E9217E00660BB4 /* ToDoOrNotTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		944DFE2619E9217E00660BB4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 944DFE0A19E9217E00660BB4 /* ToDoOrNot */;
+			targetProxy = 944DFE2519E9217E00660BB4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		944DFE1819E9217E00660BB4 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				944DFE1919E9217E00660BB4 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		944DFE1D19E9217E00660BB4 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				944DFE1E19E9217E00660BB4 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		944DFE2C19E9217E00660BB4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		944DFE2D19E9217E00660BB4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		944DFE2F19E9217E00660BB4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ToDoOrNot/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		944DFE3019E9217E00660BB4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ToDoOrNot/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		944DFE3219E9217E00660BB4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = ToDoOrNotTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ToDoOrNot.app/ToDoOrNot";
+			};
+			name = Debug;
+		};
+		944DFE3319E9217E00660BB4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = ToDoOrNotTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ToDoOrNot.app/ToDoOrNot";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		944DFE0619E9217E00660BB4 /* Build configuration list for PBXProject "ToDoOrNot" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				944DFE2C19E9217E00660BB4 /* Debug */,
+				944DFE2D19E9217E00660BB4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		944DFE2E19E9217E00660BB4 /* Build configuration list for PBXNativeTarget "ToDoOrNot" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				944DFE2F19E9217E00660BB4 /* Debug */,
+				944DFE3019E9217E00660BB4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		944DFE3119E9217E00660BB4 /* Build configuration list for PBXNativeTarget "ToDoOrNotTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				944DFE3219E9217E00660BB4 /* Debug */,
+				944DFE3319E9217E00660BB4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 944DFE0319E9217E00660BB4 /* Project object */;
+}
